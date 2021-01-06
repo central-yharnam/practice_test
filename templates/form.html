@@ -1,0 +1,24 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<form id="myfirstform" name='hello'>
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" />
+    </div>
+    <div>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" name="user_mail" />
+    </div>
+    <div>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+    <div>
+    <select id="some_dropdown1" name="some_dropdown">
+        <option value="" disabled="disabled" selected="selected" >Please select a name</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+    </select>
+    </div>
+</form>
+
+<input type='button' value='Submit form' onclick='submitDetailsForm()' />
